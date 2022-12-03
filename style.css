@@ -1,9 +1,20 @@
+/*
+    @   en css se usan los selectores
+    @   se escribe el nobre del elmento para hacer referencia a todos los tipos de este,
+    dentro del archivo html desde donde se llame (ej: body)
+    @   se pude escribir, separado por espacios, la gerarquia de etiquetas html para hacer referencia
+    a etiquetas que estan contenidas en otras (ej: header h1)
+    @   tambien se escriben, despues de un punto, los nombres de las clases asignadas a las estiquetas,
+    para hacer referencia a las etiquetas que usen esa clase (ej: .container)
+*/
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /*Lista las fuentes que usara el docmento,
+                                            gerarquicamente, de izquierda a derecha, usara las funtes,
+                                            en caso de no encontrar una, usara la siguiente*/
 }
 
 body{
-    margin: 0;
+    margin: 0; 
     background-color: #efefef;
 }
 header{
